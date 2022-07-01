@@ -21,4 +21,18 @@
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
+
+    <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/yjZox7PTtIUwXJKqGNFl/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/DHKUXyT1Q92J8QXLge6w/</url>
+        </repository>
+    </distributionManagement>
 </project>
